@@ -8,12 +8,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    z-index: 1000;
+    margin-top: 50px;
 }
 .modal {
     width: 90%;
-    height: 90vh;
+    height: 91vh;
     background-color: white;
     border-radius: 10px;
 }
@@ -118,7 +117,7 @@
 .input__btn {
     background-color: #F6F6F6;
     color: #7C7C7C;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     border: 2px solid #EAEAEA;
     border-radius: 10px;
@@ -219,7 +218,7 @@
     align-items: center;
 }
 .input__number {
-    width: 100%;
+    width: 60%;
     height: 40px;
     margin-top: 30px;
     background-color: #F6F6F6;
@@ -232,7 +231,7 @@
     font-size: 17px;    
 }
 .end-btn {
-    width: 100%;
+    width: 60%;
     height: 55px;
     color: white;
     background: linear-gradient(180deg, #FF3452 0%, #FF0A2E 100%);
