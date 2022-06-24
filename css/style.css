@@ -151,8 +151,6 @@ input {
     cursor: pointer;
 }
 .back-btn:hover {
-    width: 198px;
-    height: 63px;
     border: solid 2px #C4C4C4;
     color: #3C3C3C;
     background-color: white;
