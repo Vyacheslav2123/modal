@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-input {
+.modal__content > input {
     cursor: pointer;
 }
 .modal__content {
@@ -102,6 +102,9 @@ input {
     color: #7C7C7C;
     font-size: 18px;
     font-weight: 400;
+}
+#draw1, #draw2, #draw3, #draw4, #draw5 {
+     color: red;
 }
 .btn__container {
     display: flex;
