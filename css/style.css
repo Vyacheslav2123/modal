@@ -1,8 +1,32 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600&display=swap');
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #111B47;
+    border-radius: 8px;
+    border: solid 2px #fff;
+  }
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
-.modal__content > input {
+body {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: normal;
+    color: #39373A;
+}
+input {
     cursor: pointer;
 }
 .modal__content {
@@ -104,7 +128,7 @@
     font-weight: 400;
 }
 #draw1, #draw2, #draw3, #draw4, #draw5 {
-     color: red;
+    color: red;
 }
 .btn__container {
     display: flex;
